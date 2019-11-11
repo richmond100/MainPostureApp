@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_stats">
+
+    <fragment
+        android:id="@+id/navigation_stats"
+        android:name="com.example.mainpostureapp.StatsFragment"
+        android:label="@string/title_stats"
+        />
+
+    <fragment
+        android:id="@+id/navigation_connect"
+        android:name="com.example.mainpostureapp.ConnectFragment"
+        android:label="@string/title_connect"
+         />
+
+    <fragment
+        android:id="@+id/navigation_importexport"
+        android:name="com.example.mainpostureapp.ImportExportFragment"
+        android:label="@string/title_importexport"
+        />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.mainpostureapp.SettingsFragment"
+        android:label="@string/title_settings"
+        />
+</navigation>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/errorTR"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="275dp"
+        android:text="Hello" />
+
+    <TextView
+        android:id="@+id/errorBR"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="275dp"
+        android:text="Hello" />
+    <TextView
+        android:id="@+id/errorTL"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="50dp"
+        android:text="Hello" />
+    <TextView
+        android:id="@+id/errorBL"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="50dp"
+        android:text="Hello" />
+
+    <TextView
+        android:id="@+id/errorSlouch"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="50dp"
+        android:text="Hello"
+        android:textSize="25sp" />
+</RelativeLayout>
